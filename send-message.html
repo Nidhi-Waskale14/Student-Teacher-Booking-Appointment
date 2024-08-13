@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Message - Student-Teacher Booking Appointment</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="send-message.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html" id="homeLink">Home</a></li>
+                <li><a href="register.html" id="registerLink">Register</a></li>
+                <li><a href="login.html" id="loginLink">Login</a></li>
+                <li><a href="search-teacher.html" id="searchTeacherLink">Search Teacher</a></li>
+                <li><a href="book-appointment.html" id="bookAppointmentLink">Book Appointment</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="message-container">
+            <h2>Send Message</h2>
+            <form id="sendMessageForm">
+                <label for="teacher">Select Teacher</label>
+                <select id="teacher" name="teacher" required>
+                    <option value="">Select a teacher</option>
+                    <!-- Options will be added dynamically -->
+                     <option value="Geeta">Geeta</option>
+                     <option value="Nidhi">Nidhi</option>
+                </select>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Enter your message" required></textarea>
+                
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="send-message.js"></script>
+</body>
+</html>

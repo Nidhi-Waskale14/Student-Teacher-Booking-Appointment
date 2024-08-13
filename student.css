@@ -1,0 +1,78 @@
+/* General styles for Student page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    padding: 10px 0;
+}
+
+.logo img {
+    width: 50px; /* Adjust as needed */
+}
+
+.nav-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-menu ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-menu ul li a.active, .nav-menu ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 40px;
+}
+
+.students {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.student {
+    margin: 15px 0;
+}
+
+.student-options {
+    display: block;
+    text-align: center;
+    background-color: #004080;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.student-options:hover {
+    background-color: #003060;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

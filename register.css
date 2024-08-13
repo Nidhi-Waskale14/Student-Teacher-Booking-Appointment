@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #e9ecef;
+}
+header {
+    background: linear-gradient(135deg, #004080, #003366);
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 20px;
+}
+
+.nav-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-menu ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.nav-menu ul li a.active, .nav-menu ul li a:hover {
+    color: #cce7ff;
+}
+.registration-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin: 10vh;
+}
+
+.registration-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.registration-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration-container label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.registration-container input[type="text"],
+.registration-container input[type="email"],
+.registration-container input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.registration-container .cta-button {
+    background-color: #004080;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+.registration-container .cta-button:hover {
+    background-color: #003060;
+}

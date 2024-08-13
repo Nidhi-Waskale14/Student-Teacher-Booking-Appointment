@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Teacher - Student-Teacher Booking Appointment</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="search-teacher.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html" id="homeLink">Home</a></li>
+                <li><a href="register.html" id="registerLink">Register</a></li>
+                <li><a href="login.html" id="loginLink">Login</a></li>
+                <li><a href="book-appointment.html" id="bookAppointmentLink">Book Appointment</a></li>
+                <li><a href="send-message.html" id="sendMessageLink">Send Message</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="search-container">
+            <h2>Search Teacher</h2>
+            <form id="searchForm">
+                <label for="search">Search by Name</label>
+                <input type="text" id="search" name="search" placeholder="Enter teacher's name">
+                
+                <button type="submit" class="cta-button">Search</button>
+            </form>
+
+            <div class="search-results">
+                <h3>Search Results</h3>
+                <ul id="resultsList">
+                    <!-- Search results will be appended here -->
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <script src="search-teacher.js"></script>
+</body>
+</html>

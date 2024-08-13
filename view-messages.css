@@ -1,0 +1,96 @@
+/* General styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    padding: 10px 0;
+}
+
+.nav-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-menu ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.nav-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-menu ul li a.active, .nav-menu ul li a:hover {
+    text-decoration: none;
+}
+
+.main {
+    padding: 40px;
+}
+
+.message-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+    background-color: #e6f2ff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.message h3 {
+    margin-top: 0;
+    color: #004080;
+}
+
+.message p {
+    color: #333;
+    margin: 5px 0;
+}
+
+.message-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.reply-button, .delete-button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reply-button {
+    background-color: #28a745;
+    color: white;
+}
+
+.reply-button:hover {
+    background-color: #218838;
+}
+
+.delete-button {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.delete-button:hover {
+    background-color: #e60000;
+}

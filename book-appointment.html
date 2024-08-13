@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment - Student-Teacher Booking Appointment</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="book-appointment.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html" id="homeLink">Home</a></li>
+                <li><a href="register.html" id="registerLink">Register</a></li>
+                <li><a href="login.html" id="loginLink">Login</a></li>
+                <li><a href="search-teacher.html" id="searchTeacherLink">Search Teacher</a></li>
+                <li><a href="send-message.html" id="sendMessageLink">Send Message</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="appointment-container">
+            <h2>Book Appointment</h2>
+            <form id="bookAppointmentForm">
+                <label for="teacher">Select Teacher</label>
+                <select id="teacher" name="teacher" required>
+                    <option value="">Select a teacher</option>
+                    <option value="1">Geeta</option>
+                    <option value="2">Nidhi</option>
+                    <!-- Options will be added dynamically -->
+                </select>
+                
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date" required>
+                
+                <label for="time">Time</label>
+                <input type="time" id="time" name="time" required>
+                
+                <button type="submit" class="cta-button">Book Appointment</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="book-appointment.js"></script>
+</body>
+</html>
